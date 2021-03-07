@@ -268,7 +268,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.bernyanyi(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Ganteng Doang Gak Bernyanyi (ง˙o˙)ว**")
+    await typew.edit("**Ganteng Doang Gak Bernyanyi, Bernyanyi dong anjing (ง˙o˙)ว**")
     sleep(2)
     await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
     sleep(1)

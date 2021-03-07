@@ -41,7 +41,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`DINOOOOSAURUSSSSS!!`")
     sleep(1)
-    await typew.edit("`🏃                        🦖`")
+    await typew.edit("`🏃        AAA TIDAK                🦖`")
     await typew.edit("`🏃                       🦖`")
     await typew.edit("`🏃                      🦖`")
     await typew.edit("`🏃                     🦖`")
@@ -89,7 +89,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`🧎🦖`")
     sleep(2)
-    await typew.edit("`-TAMAT-`")
+    await typew.edit("`-MENINGGOY-`")
 
 
 @register(outgoing=True, pattern="^.gabut$")
@@ -346,7 +346,7 @@ async def koc(e):
         await e.edit("🚶                              🐢")
         await e.edit("🚶                               🐢")
         await e.edit("🚶                                🐢")
-        await e.edit("`GABUT`")
+        await e.edit("`GABUT KAWAN`")
 
 
 @register(outgoing=True, pattern='^.terkadang(?: |$)(.*)')
@@ -400,7 +400,7 @@ async def _(event):
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cintaku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang Aku Sangat Mencintai Mu, I Love You 💞`"]
+            f"`Cintaku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang Aku Sangat Mencintai Mu, I Love You 💞, Tapi boong`"]
 
         for i in animation_ttl:
 
@@ -431,7 +431,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`I LOVEE YOUUUU💘💓`")
     sleep(1)
-    await typew.edit("`Tapi Bo'ong`")
+    await typew.edit("`Tapi Bo'ong, HAHAHA`")
 # Create by myself @localheart
 
 CMD_HELP.update({

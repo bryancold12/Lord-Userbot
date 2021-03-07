@@ -812,7 +812,7 @@ GAMBAR_KONTL = """
 ⠀⠀⠀⠀⠀⠀⢹⡄⠀⠀⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠃
 ⠀⠀⠀⠀⠀⠀⠀⠙⢦⣀⣳⡀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠏
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⢦⣀⣀⣀⣀⣠⡴⠚⠁⠉⠉⠉
-"""
+""" INI TITID ANJG
 
 
 WHERE_Jutsu = ["Di Pipi", "Di Kepala", "Di Bokong", "Di Badan ,Di Pantat"]
@@ -1237,10 +1237,10 @@ async def iqless(e):
     await e.edit("♿")
 
 
-@register(outgoing=True, pattern="^.fuck$")
+@register(outgoing=True, pattern="^.kenalan$")
 async def iqless(e):
-    await e.edit("🖕🖕🖕🖕🖕🖕🖕🖕\n🖕🖕🖕🖕🖕🖕🖕🖕\n🖕🖕\n🖕🖕\n🖕🖕\n🖕🖕🖕🖕🖕🖕\n🖕🖕🖕🖕🖕🖕\n🖕🖕\n🖕🖕\n🖕🖕\n🖕🖕\n🖕🖕")
-
+    await e.edit("Hi Aku Bryan\nUmurku 14tahun\nAskot Karawang\nSalam Kenal\nBtw Kamu anjing")
+ 
 
 @register(outgoing=True, pattern=r"^\.moon$")
 async def moon(event):
@@ -1254,9 +1254,9 @@ async def moon(event):
         return
 
 
-@register(outgoing=True, pattern=r"^\.bunga$")
+@register(outgoing=True, pattern=r"^\.bryan$")
 async def moon(event):
-    deq = deque(list("🌼🌻🌺🌹🌸🌷"))
+    deq = deque(list("Bryan adalah orang ganteng"))
     try:
         for x in range(35):
             await sleep(0.1)
@@ -1338,7 +1338,7 @@ async def earth(event):
         return
 
 
-@register(outgoing=True, pattern="^.hati$")
+@register(outgoing=True, pattern="^.halu$")
 async def earth(event):
     deq = deque(list("🖤💜💙💚💛🧡❤️🤍"))
     try:
@@ -1352,7 +1352,7 @@ async def earth(event):
 
 @register(outgoing=True, pattern="^.monyet$")
 async def earth(event):
-    deq = deque(list("🙈🙉🙈🙉🙈🙉🙈🙉"))
+    deq = deque(list("🙈🙉🙈🙉🙈🙉🙈🙉 kamu kaya monyet"))
     try:
         for x in range(32):
             await sleep(0.1)

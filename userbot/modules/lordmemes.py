@@ -2967,11 +2967,11 @@ async def _(event):
         await event.edit("`\"Love is a terrifying thing\nIt’s not safe. Because when you love someone, you have to face the fact that you can lose them.\nSometimes life throws an unexpected wrench in your way. It might be that you’re in jeopardy of losing your career, your freedom, or worst of all, you might even find out that a loved one has died\nThese things make you realize how precious life is, how important every second we have on this earth is, and how important the people we care about are to us.\"`")
 
 
-@register(outgoing=True, pattern="^.kiss(?: |$)(.*)")
+@register(outgoing=True, pattern="^.lope(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
-    deq = deque(list("😗😙😚😚😘"))
+    deq = deque(list("❤️💓💕💖💚💛🧡🖤"))
     for _ in range(48):
         await asyncio.sleep(0.1)
         await event.edit("".join(deq))

@@ -24,10 +24,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    f"**Maaf Lord {ALIVE_NAME} Sedang AFK!**",
-    f"**Maaf Lord {ALIVE_NAME} Sedang AFK\n Tunggu Sampai Dia Kembali Online!**",
-    f"**Lord {ALIVE_NAME} Sedang AFK\n Tunggulah Sampai Online**",
-    f"**Maaf Lord {ALIVE_NAME} Sedang AFK!**",
+    f"**Maaf {ALIVE_NAME} Menghilang**",
+    f"**Maaf Lord {ALIVE_NAME} Sedang Menghilang**",
+    f"**Lord {ALIVE_NAME} Sedang Menghilang**",
+    f"**Maaf Lord {ALIVE_NAME} Sedang Menghilang**",
 ]
 
 
@@ -243,8 +243,8 @@ async def afk_on_pm(sender):
                 afk_since = f"`{int(seconds)} Detik`"
             if sender.sender_id not in USERS:
                 if AFKREASON:
-                    await sender.reply(f"✘ **Lord Sedang AFK** {afk_since} **Yang Lalu**.\
-                        \n☛ **Alasan**: `{AFKREASON}`")
+                    await sender.reply(f"✘ **Lord Sedang Menghilang** {afk_since} **Yang Lalu**.\
+                        \n☛ **Alasan**: `{TERSESAT}`")
                 else:
                     await sender.reply(str(choice(AFKSTR)))
                 USERS.update({sender.sender_id: 1})
@@ -252,8 +252,8 @@ async def afk_on_pm(sender):
             elif apprv and sender.sender_id in USERS:
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await sender.reply(f"✘ **Lord Sedang AFK** {afk_since} **Yang Lalu.**\
-                            \n☛ **Alasan**: `{AFKREASON}`")
+                        await sender.reply(f"✘ **Lord Sedang Menghilang** {afk_since} **Yang Lalu.**\
+                            \n☛ **Alasan**: `{TERSESAT}`")
                     else:
                         await sender.reply(str(choice(AFKSTR)))
                     USERS[sender.sender_id] = USERS[sender.sender_id] + 1

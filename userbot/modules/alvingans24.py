@@ -55,7 +55,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💔<\\  *Terimakasih`")
+                     "`\n💔<\\  *Terimakasih,SUDAH MENYAKITI`")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
@@ -89,7 +89,7 @@ async def _(event):
             "😎 \n/\\_,__😫 \n  //    //       \\",
             "😖 \n/\\_,💦_😋  \n  //         //        \\",
             "  😭      ☺️ \n  /|\\   /(👶)\\ \n  /!\\   / \\ ",
-            "`TAMAT 😅`"]
+            "`CROTT`"]
 
         for i in animation_ttl:
 
@@ -139,7 +139,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💖<\\  *Tapi Bo'ong`")
+                     "`\n💖<\\  *GA JADI,KAMU KANG GHOSTING`")
 # Alpinnnn Gans
 
 
